@@ -30,4 +30,20 @@ This tutorial simulates end-user creation of a ticket and the agent side of tick
 <p align="center"><img alt="Screenshot 2025-06-18 at 11 23 21 AM" src="https://github.com/user-attachments/assets/b56f52a0-03b0-4181-ae25-9c6a8c23d072" height=80% width=80% />
  </p>
  <br />
- <p>Now that we have properly set the priority of the ticket, we can further examine the ticket and see that next to the "Assigned To:" section it says "Unassigned" which means that there is no one currently in charge of working on this ticket. </p>
+ <p>Now that we have properly set the priority of the ticket, we can further examine the ticket and see that next to the "Assigned To:" section it says "Unassigned" which means that there is no one currently in charge of working on this ticket. To change that, we will click on Unassigned and choose ourselves as the Assignee (if there were more agents working on the company we could choose one of them) then click "Assign".</p>
+ <p align="center"><img alt="Screenshot 2025-06-18 at 11 28 44 AM" src="https://github.com/user-attachments/assets/32d3334f-dff5-4f88-ab34-185744fbf8c3" height=80% width=80%/>
+</p>
+<br />
+<p>The next thing we need to change is the chosen SLA for the ticket. Right now it's under "Default SLA", but we want to move it to "Sev-A" as it is a ticket of the highest severity and needs to be resolved as soon as possible. Click on "Default SLA" and change it to "Sev-A".</p>
+<p align="center"><img alt="Screenshot 2025-06-18 at 11 31 09 AM" src="https://github.com/user-attachments/assets/30dd82a6-097b-4f23-9996-af7d2e0e90a9" height=80% width=80%/>
+</p>
+<br />
+<p>Now that we've done all these changes to the ticket, we can click the refresh icon right next to the "Ticket #" at the top to see how the system logs every change we've made so far.</p>
+<p align="center"><img alt="Screenshot 2025-06-18 at 11 34 09 AM" src="https://github.com/user-attachments/assets/c06c8cf1-405d-41e8-86e8-3c4f7dabd3ba" height=80% width=80%/>
+</p>
+<br />
+<p>Since we now know that we as Jane Doe  will be working on this ticket, we can do our due dilligence and send a message to the end-user to let them know that their ticket has been assigned to an agent and that they will be kept updated with any progess on this issue. To do this, scroll down to the "Post Reply" section and type a response like this: "Hello Ken, an agent of ours is currently working on solving the ticket you just submitted and is in communication with our Level II Support team. We will keep you updated on the progress." then click "Post Reply".</p>
+<p align="center"><img alt="Screenshot 2025-06-18 at 11 43 05 AM" src="https://github.com/user-attachments/assets/98f1daac-9539-4d0c-9194-35716cc4fd5d" height=80% width=80%/>
+</p>
+<br />
+<p>You have now reached thend of this osTicket tutorial, congrats! You now have a concrete understanding of what dependenceis osTickets needs, how to configurate it based on your organizations requirements, and what working a ticket looks like. This tutorial only showed a small portion of what osTicket is capable of, and I encourage you to explore its interface further and to not be afraid to ask for assistance online or watch more tutorials on it. Best of luck out there!</p>
