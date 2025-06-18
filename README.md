@@ -3,17 +3,19 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle Examples</h1>
-This tutorial simulates the recommended <br />
+This tutorial simulates end-user creation of a ticket and the agent side of ticket response.<br />
 
 
-<h2>Tickets</h2>
+<h2>Ticket Creation & Response</h2>
 
 <p>
 </p>
-<p>
-Now that we have successfully installed osTicket alongside all it's dependencies we can focus on systems administration. There are two links that will be important for this section. The first: http://localhost/osTicket/scp/login.php is the admin login page from where you can login using the admin account created on the first part of this tutorial, we will do most all of the configurations from this side of osTicket. The second: http://localhost/osTicket is the end-user side of osTicket from where tickets can be submitted for you to work on. Click on the first link and log in, the main page should look something like this: 
-</p>
-<p align="center">
-<img alt="Screenshot 2025-06-16 at 10 33 44 AM" src="https://github.com/user-attachments/assets/2a41b0bd-2f63-4e4c-8dbf-20e9e3bb91f3" height=80% width=80%/>
+<p>First, we will be creating a ticket from the end-user perspective by going to the Support Center Ticketing System with the link: http://localhost/osTicket and in there we can click "Open A New Ticket".</p>
+<p align="center"><img alt="Screenshot 2025-06-18 at 10 43 48 AM" src="https://github.com/user-attachments/assets/3bf2f141-23f1-411d-a1eb-070c9f94cd19" height=80% width=80%/>
 </p>
 <br />
+<p>In this new page, we will submit a ticket as Ken, one of the users we created. Add Ken's email address and name, and choose "Report a Problem/Business Critical Outage" as the Help Topic. For the Issue Summary type "Entire online banking system is down" and for the notes type "My employees are reporting that users are no longer able to access the online banking system, and that those who do can't log in" then click "Create Ticket" at the bottom.</p>
+<p align="center"><img alt="Screenshot 2025-06-18 at 10 51 29 AM" src="https://github.com/user-attachments/assets/b7d1a498-107e-44a3-a6ea-a259b4931eab" height=80% width=80%/>
+</p>
+<br />
+<p></p>
